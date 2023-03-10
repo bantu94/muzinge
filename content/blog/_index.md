@@ -6,10 +6,9 @@ menu:
     weight: 110
   footer:
     name: Blog
-    weight: 100    
+    weight: 100
 ---
-
-Muzinge Blog
+The Acme Blog
 ============
 
 Curated content about our teams and products.
