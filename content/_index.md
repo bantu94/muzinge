@@ -25,6 +25,7 @@ testimonials:
              We love what Muzinge delivers.
 
 
+type: modern
 ---
 
 Muzinge is the **best**
