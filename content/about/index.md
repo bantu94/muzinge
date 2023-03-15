@@ -5,7 +5,7 @@ description: World's leading manufacturer of digital shapes. We shape the world.
 draft: false
 ---
 
-Acme Corporation&trade; is the world's leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles.
+Muzinge&trade; is the world's leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles.
 
 
 
@@ -16,7 +16,7 @@ We provide :smile: to hundreds of happy customers.
 Manufacturing
 --------------
 
-At Acme Corporation, we take pride in what we create. Our manufacturing process goes through **3 different** stages of fine workmanship to give you the best possible shapes.
+At Muzinge, we take pride in what we create. Our manufacturing process goes through **3 different** stages of fine workmanship to give you the best possible shapes.
 
 <img style="float:right; margin: 20px;" src="draw.jpg">
 
