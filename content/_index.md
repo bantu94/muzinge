@@ -24,8 +24,7 @@ testimonials:
              Undoubted accuracy. Safety guarantee.
              We love what Muzinge delivers.
 
-cascade:
-  type: modern
+
 ---
 
 Muzinge is the **best**
