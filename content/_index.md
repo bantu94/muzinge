@@ -1,13 +1,13 @@
 ---
-title: Muzinge
-description: Welcome to the website of Muzinge, the leading creator of digital shapes on the planet, providing precise shape creations that are ready to use.
+title: Acme Corporation
+description: Welcome to the website of Acme Corporation, the leading creator of digital shapes on the planet, providing precise shape creations that are ready to use.
 subtitle: shaping the **world** for you to **live in**
 explore: blog
 testimonials:
   - author: Brad
     from: Fictional Incorporated
     content: >
-              We have been using the shapes from Muzinge 
+              We have been using the shapes from Acme 
               in our products for ages. They are 
               precise, smooth, and very well built.
 
@@ -22,13 +22,13 @@ testimonials:
     from: Richter Measures
     content: >
              Undoubted accuracy. Safety guarantee.
-             We love what Muzinge delivers.
+             We love what Acme delivers.
 
-
-type: modern
+cascade:
+  type: modern
 ---
 
-Muzinge is the **best**
+Acme is the **best**
 ==================
 
 ![about us](about.jpg)
@@ -36,7 +36,7 @@ Muzinge is the **best**
 The finest in this field
 ------------------------
 
-Muzinge&trade; is the _world’s leading manufacturer of digital shapes_. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles.
+Acme Corporation&trade; is the _world’s leading manufacturer of digital shapes_. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles.
 
 [About Us](./about)
 
