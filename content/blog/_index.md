@@ -4,11 +4,21 @@ menu:
     name: Blog
     identifier: blog
     weight: 110
+    post: From our editor
   footer:
     name: Blog
     weight: 100
----
-The Acme Blog
+
+cascade:
+- _target:
+    kind: page
+  layout: blog
+  type: modern
+- _target:
+    kind: section
+  type: modern
+  layout: list
+---Muzinge Blog
 ============
 
 Curated content about our teams and products.

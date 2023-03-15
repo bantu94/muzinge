@@ -1,0 +1,22 @@
+{{define "bodyClass"}}page list{{end}}
+{{define "body"}} 
+<main>
+  <h1>{{.Title | humanize}}</h1> 
+  <center>{{.Content}}</center>
+  <!-- custom paginator layout -->
+  {{$pages := .RegularPages}}
+  {{range .Sections}}
+  {{$pages = append $pages .RegularPages}}
+  {{end}}
+  {{$pages = sort $pages "Date" "desc" }}
+
+  {{with .Paginator.Pages}}
+    <ul class="posts">
+      {{ range .}}
+        {{partialCached "card.html" . .Permalink}}
+      {{ end }}
+    </ul>
+  {{end}}
+{{ template "_internal/pagination.html" (dict "page" . "format" "terse") }}
+</main>
+{{end}}
