@@ -8,7 +8,7 @@
         {{with $title}}<h1>{{.}}</h1>{{end}}
         {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
         <a href="{{ref . (.Param "explore")}}">Explore</a>
-        {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }}
+        <!-- {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }} -->
       </div>
     </section>
     {{with (partialCached "products.html" "cache")}}
@@ -18,9 +18,9 @@
         {{range $name, $data := .}}
         <li>
           <a href="#">
-            {{$img := resources.GetMatch (print "image/products/" $name ".*") | images.Filter (images.Overlay (resources.GetMatch "image/m_watermark.*") 0 0 )}}
+            {{$img := resources.GetMatch (print "image/products/" $name ".*") | images.Filter (images.Overlay (resources.GetMatch "image/watermark.*") 0 0 )}}
             {{$img := $img.Resize "1000x"}}
-            <img src="{{$img.Permalink}}" alt="{{$name}}">
+            <img src="{{$img.Permalink}}" alt="{{$name}}" >
             <h2>{{$name}}</h2>
             <div class="price">$ {{$data.Price}}</div>
             <div class="rating">
