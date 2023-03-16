@@ -18,7 +18,7 @@
         {{range $name, $data := .}}
         <li>
           <a href="#">
-            {{$img := resources.GetMatch (print "image/products/" $name ".*") | images.Filter (images.Overlay (resources.GetMatch "image/watermark.*") 0 0 )}}
+            {{$img := resources.GetMatch (print "image/products/" $name ".*") | images.Filter (images.Overlay (resources.GetMatch "image/m_watermark.*") 0 0 )}}
             {{$img := $img.Resize "1000x"}}
             <img src="{{$img.Permalink}}" alt="{{$name}}">
             <h2>{{$name}}</h2>
