@@ -23,8 +23,8 @@ testimonials:
     content: >
              Undoubted accuracy. Safety guarantee.
              We love what Muzinge delivers.
-
-
+  
+  - tweet: https://twitter.com/atishay811/status/1259605801968128000
 ---
 
 Muzinge is the **best**
