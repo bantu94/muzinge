@@ -1,7 +1,7 @@
-baseURL: https://chapter-07-18.hugoinaction.com
+baseURL: https://chapter-08-10.hugoinaction.com
 languageCode: en-us
 title: Muzinge
-theme: MuzingeTheme
 enableEmoji: true
 enableGitInfo: true
 Paginate: 3
+theme: github.com/hugoinaction/AcmeTheme
