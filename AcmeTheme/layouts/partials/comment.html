@@ -5,7 +5,9 @@
       Comments have been disabled by the website administrator.
     </div>
   {{ else }}
-   
+    {{if getenv "NETLIFY" }}
+      <form netlify="true" name="Comments">
+    {{ else }}
       <form action="https://formspree.io/f/{{.FormspreeCommentForm}}" method="post">
     {{ end }}
     <input type="hidden" name="url" value="{{.RelPermalink}}">
@@ -25,5 +27,5 @@
         <button type="submit">Send</button>
       </div>
     </form>
-    
+    {{end}}
   </div>

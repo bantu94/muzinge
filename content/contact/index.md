@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 layout: contact
+contact: xjvdondv
 ---
 
 Get in touch
@@ -14,4 +15,5 @@ Bombo Road,
 Central
 
 📞 (974) 3008 7175  
-📧 eddyug94@gmail.com
+📧 3754.ngezimu@gmail.com
+
